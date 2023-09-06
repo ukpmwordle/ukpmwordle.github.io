@@ -183,7 +183,7 @@ function giveUp() {
 }
 
 function info() {
-    alert("Prime Ministers from 1900.\nFor Prime Ministers that had more than 1 term, data is for their first term.\n\nStart Date appears YELLOW when within 20 years of the answer.\nTerm Length appears YELLOW when within 2 years of the answer.\nMonarch appears YELLOW when answer is 1 before or after.");
+    alert("Prime Ministers from 1900.\nFor Prime Ministers that had more than 1 term, data is for their first term.\n\nStart Date appears YELLOW when within 20 years of the answer.\nTerm Length is measured in full years, and appears YELLOW when within 2 years of the answer.\nMonarch appears YELLOW when answer is 1 before or after.");
 }
 
 function makeRed(item) {
