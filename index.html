@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UK PM Wordle</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <h1>UK Prime Minister Wordle</h1>
+
+        <div class="entry-area">
+            <select id="select"></select>
+            <button class="nav-button" id="guess-button" onclick="makeGuess()">Guess</button>
+        </div>
+        <div class="entry-area button-area">
+            <button class="nav-button" id="give-up-button" onclick="giveUp()">Give Up</button>
+            <button class="nav-button" id="reset-button" onclick="reset()">Reset</button>
+            <button class="nav-button" id="info-button" onclick="info()">Info</button>
+        </div>
+        <div class="guess shortened">
+            <div class="fifteen-percent guess-attribute"><p>Name</p></div>
+            <div class="fifteen-percent guess-attribute"><p>Image</p></div>
+            <div class="fifteen-percent guess-attribute"><p>Party</p></div>
+            <div class="fifteen-percent guess-attribute"><p>Start Date</p></div>
+            <div class="fifteen-percent guess-attribute"><p>Term Length</p></div>
+            <div class="ten-percent guess-attribute"><p>Gender</p></div>
+            <div class="fifteen-percent guess-attribute"><p>Monarch</p></div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="guesses-area" id="guesses-area">
+    </div>
+</body>
+
+</html>
